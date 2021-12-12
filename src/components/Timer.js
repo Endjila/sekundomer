@@ -4,7 +4,6 @@ import styles from "./Timer.module.css";
 
 const Timer = (props) => {
 
-    const time = new Date(timeSec).toISOString().slice(11, 19);
     const [timeSec, setTimeSec] = useState(0);
     let clickTimeot = null;
 
@@ -54,6 +53,8 @@ const Timer = (props) => {
             }
         }
     }, [props.status]);
+
+    const time = new Date(timeSec).toISOString().slice(11, 19);
 
     return (
         <div className={styles.timer}>
