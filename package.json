@@ -2,11 +2,11 @@
   "name": "sekundomer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://endjila.github.io/sekundomer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "homepage": "https://endjila.github.io/sekundomer",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
